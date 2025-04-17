@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Muhzina | ContactForm</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/portfolio.jpg">
+    <meta name="description" content="welcome to my portfolio">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="author" content="Muhzina">
+    <meta property="og:title" content="Muhzina Profile" />
+    <meta property="og:type" content="Profile" />
+    <meta name="twitter:title" content="Muhzina | portfolio ">
+    <meta name="twitter:description" content=" welcome to my portfolio.">
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+    <!-- header starts-->
+    <header>
+        <div class="header-div1">
+            <img src="/assets/images/portfolio.jpg" alt="logo">
+            <h1>portfolio</h1>
+        </div>
+        <div class="header-div2">
+
+            <a href="index.html" class="">Home</a>
+            <a href="index.html">About</a>
+            <a href="index.html">Project</a>
+            <a href="index.html">Service</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+    </header>
+    <!--header ends-->
+    <hr>
+    <!--contact form stars-->
+    <main id="contact">
+
+        <form action="">
+            <fieldset>
+                <legend>
+                    <h2>contact form</h2>
+                </legend>
+
+
+                <div>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" placeholder="enter your name" required>
+                </div><br>
+                <div>
+                    <label for="emal">Email :</label>
+                    <input type="email" id="email" placeholder="enter your email" required>
+                </div><br>
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="enter your password" maxlength="8" required>
+                </div><br>
+                <div>
+                    <label for="number">Number :</label>
+                    <input type="tel" id="number" placeholder="9012435678" maxlength="10" required>
+                </div><br>
+                <div>
+                    <label for="gender">Gender :</label>
+                    <label for="gender">Male</label>
+                    <input type="radio" name="sex" id="gender" value="male">
+                    <label for="gender">Female</label>
+                    <input type="radio" id="gender" name="sex" value="female">
+                    <label for="gender">Others</label>
+                    <input type="radio" id="gender" name="sex" value="others">
+                </div><br>
+                <div>
+                    <label for="dateandtime">Date & time : </label>
+                    <input id="dateandtime" type="datetime-local" required>
+                </div><br>
+                <div>
+                    <label for="interests">Interests : </label>
+
+                    <label for="interests">coding </label>
+                    <input id="interests" type="checkbox" name="interests">
+
+                    <label for="interests">swimming </label>
+                    <input id="interests" type="checkbox" name="interests">
+
+                    <label for="interests">reading </label>
+                    <input id="interests" type="checkbox" name="interests">
+
+                    <label for="interests">Drawing </label>
+                    <input id="interests" type="checkbox" name="interests">
+
+                </div><br>
+                <div>
+                    <label for="course">Course :</label>
+                    <select name="course" id="course">
+                        <option value="c">C</option>
+                        <option value="c++">C++</option>
+                        <option value="java">Java</option>
+                        <option value="python">Python</option>
+                        <option value="javascript">Javascript</option>
+                        <option value="c#">C#</option>
+
+                    </select>
+
+                </div><br>
+                <div>
+                    <label for="message">Message :</label>
+                    <textarea name="message" id="message" rows="5" cols="35"
+                        placeholder="type something....."></textarea>
+                </div><br>
+                <div>
+                    <label for="image">Upload : <img
+                            src="https://t4.ftcdn.net/jpg/01/07/57/91/360_F_107579101_QVlTG43Fwg9Q6ggwF436MPIBTVpaKKtb.jpg"
+                            alt="file upload" width="30">
+                    </label>
+                    <input style="display:none;" type="file" id="image" placeholder="image">
+                </div><br>
+                <div>
+                    <button>Submit</button>
+                    <button>Reset</button>
+                </div><br>
+
+            </fieldset>
+        </form>
+
+    </main>
+
+
+    <!--contact form ends-->
+
+
+    <hr>
+    <!--footer starts-->
+    <footer>
+        <p>all right reserved by Muhzina and team</p>
+    </footer>
+    <!--footer ends-->
+
+</body>
+
+</html>
